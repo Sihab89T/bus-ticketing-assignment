@@ -4,28 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="pl-16 font-raleway">
     <header>
-        <nav></nav>
+        <nav class="container ">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      
+                    </div>
+                    <!-- <ul tabindex="0" class="menu menu-sm  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"> -->
+                  </div>
+                  <a class="btn btn-ghost text-3xl font-bold">P - Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-ghost border-green-400 text-green-400"> <img src="images/bus-icon.png" alt="">Bus</button>
+                </div>
+              </div>
+        </nav>
     </header>
  <main>
     <section>
-        <!-- banner -->
+        <div class="container pl-4">
+            <div class="hero w-[1450px] h-[600px] rounded-lg bg-[url(images/banner.png)]">
+                <div class="hero-overlay bg-opacity-20"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with <span class="text-green-400">P Paribahan</span></h1>
+                    <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                    <button class="btn btn-primary text-black bg-green-400">Buy Ticket</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="container justify-center mt-10">
+        <div>
+            <h2 class="font-bold text-3xl text-center mb-5">Best offers for you</h2>
+        </div>
+        <div class="flex space-x-20 ml-16">
+            <div class="bg-[#FFBF0F] flex justify-between p-10 rounded-lg w-[570px] h-[220px] items-center ">
+                <div class="space-y-3">
+                    <h2 class="text-3xl font-extrabold">15% OFF</h2>
+                    <p>on your next purchases</p>
+                    <p>use by January 2024 </p>
+                </div>
+                <div class="space-y-3">
+                    <h2 class="text-2xl font-bold">NEW15</h2>
+                    <p>Coupon Code</p>
+                </div>
+            </div>
+            <div class=" flex bg-[#F78C9C] justify-between p-10 rounded-lg w-[570px] h-[220px] items-center ">
+                <div class="space-y-3">
+                    <h2 class="text-3xl font-extrabold">20% OFF</h2>
+                    <p>on your next purchases</p>
+                    <p>use by January 2024 </p>
+                </div>
+                <div class="space-y-3">
+                    <h2 class="text-2xl font-bold">Couple 20</h2>
+                    <p>Coupon Code</p>
+                </div>
+                
+            </div>
+        </div>
+       <div class="mt-10 text-center">
+        <button class="btn btn-ghost border-green-400 text-green-400"> <img src="images/bus-icon.png" alt="">See all offers</button>
+       </div>
+       
+     
     </section>
 
     <section>
-        <!-- Best offers -->
-    </section>
-
-    <section>
-        <!-- tickets gallery -->
+        <h1 class="text-3xl font-extrabold">P.H Paribahan </h1>     
+        <p> Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>   
+        
+       <div class="flex space-x-6 mt-10">
+        <div>
+            <img src="images/bus-logo.png" alt="">
+        </div>
+        <div>
+            <h1 class="text-xl font-semibold">Greenline Paribahan</h1>
+            <p>Coach-009-WEB ! AC_Business </p>
+        </div>
+       </div>
+       <div>
+        <button class="btn btn-ghost border-green-400 text-green-400"> <img src="images/seat-green-filled.png" alt=""><p><span></span></p></button>
+       </div>
     </section>
  </main>
 
     <footer>
         <!-- footer -->
     </footer>
-    
+    <script src=""></script>
 </body>
 </html>
